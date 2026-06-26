@@ -1,0 +1,20 @@
+        +----------------------+
+        |    Arduino IDE       |
+        |  Servo Motor Sketch  |
+        +----------+-----------+
+                   |
+            Upload via USB
+                   |
+                   ▼
+        +----------------------+
+        |     Arduino UNO      |
+        |   (ATmega328P MCU)   |
+        |                      |
+        |  PWM Pin (D9) -------+---------> Servo Signal
+        |  5V -----------------+---------> Servo VCC
+        |  GND ----------------+---------> Servo GND
+        +----------------------+
+                   |
+                   ▼
+             Servo Motor
+          (0° – 180° Rotation)
